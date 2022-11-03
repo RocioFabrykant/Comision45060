@@ -4,7 +4,7 @@ import { getProducts } from '../mock/products';
 import ItemList from './ItemList';
 import {useParams} from 'react-router-dom';
 
-const ItemListContainer = ({saludo}) => {
+const ItemListContainer = () => {
   const [items,setItems] = useState([]);
   const {categoryName} = useParams();
   useEffect(() => {
@@ -20,7 +20,6 @@ const ItemListContainer = ({saludo}) => {
   return (
     
     <main className='contenedor'>
-        <p className='texto'>{saludo}</p>
         <div className='contenedorProductos'>
           <ItemList items = {items}/>
         </div>

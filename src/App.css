@@ -22,18 +22,41 @@ ul{
   list-style-type: none;
 }
 .contenedor{
-  background-image:url('./img/fondo.jpg');
-  height: 90vh;
+ /* background-image:url('./img/fondo.jpg');*/
+  background-color: white;
+  /*height: 90vh;*/
+}
+.contenedorProductos{
+  
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding:20px;
+
 }
 .texto{
-  color:white;
+  color:black;
   text-align: center;
   padding-top: 20vh;
   padding-right: 20vw;
   font-style: oblique;
   font-size: x-large;
 }
+.imagenItem{
+  width:200px;
+  
+}
 a{
   text-decoration: none;
   color: black;
+}
+.ItemDetalle{
+  padding:0px 0px 150px 300px;
+}
+.imagenDetalle{
+  width: 50vw;
+}
+.ItemProducto{
+  padding:10px;
 }

@@ -17,6 +17,7 @@ const Navbar = () => {
             
             <li className='linkMenu'><Link to="/cart"><CartWidget/></Link></li>
         </ul>
+        
     </nav>
   )
 }

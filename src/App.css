@@ -22,9 +22,7 @@ ul{
   list-style-type: none;
 }
 .contenedor{
- /* background-image:url('./img/fondo.jpg');*/
   background-color: white;
-  /*height: 90vh;*/
 }
 .contenedorProductos{
   
@@ -35,14 +33,7 @@ ul{
   padding:20px;
 
 }
-/*.texto{
-  color:black;
-  text-align: center;
-  padding-top: 20vh;
-  padding-right: 20vw;
-  font-style: oblique;
-  font-size: x-large;
-}*/
+
 .imagenItem{
   width:200px;
   
@@ -52,11 +43,16 @@ a{
   color: black;
 }
 .ItemDetalle{
-  padding:0px 0px 150px 300px;
+  padding:15px 0px 150px 300px;
 }
 .imagenDetalle{
-  width: 50vw;
+  width: 45vw;
 }
 .ItemProducto{
   padding:10px;
+}
+.fontcartwidget{
+  font-weight: bold;
+  font-size: 14px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }

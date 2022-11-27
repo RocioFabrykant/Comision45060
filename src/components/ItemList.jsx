@@ -1,11 +1,9 @@
 import React from 'react'
 import Item from './Item'
-import ItemCount from './ItemCount'
+
 
 const ItemList = ({items}) => {
-  //const onAdd = (argumento) => {
-    //console.log("la cantidad agregada es :", argumento);
- // }
+
   return ( 
     items.map((producto)=>{
         return (

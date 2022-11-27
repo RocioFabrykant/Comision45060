@@ -7,7 +7,7 @@ const Cart = () => {
   const {cart,deleteOne,deleteAll,precioTotal} = useContext(CartContext);
   if(cart.length === 0) return( <h1>El carrito está vacío <Link to="/">Ir al HOME</Link></h1>);
   return(
-    <div className='carrito'>
+    <div className='checkout'>
       {cart.map((prod) => (
         <div>
           <img src={prod.img} alt={prod.title} width="80px" />

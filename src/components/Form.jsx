@@ -55,7 +55,7 @@ const Form = () => {
   
   return (
     <div>
-      <form action="" onSubmit={enviarDatos}>
+      <form className='checkout' action="" onSubmit={enviarDatos}>
         <input type="text" name="nombre" onChange={handleName} placeholder='nombre' value={name} /><br />
         <input type="text" name="apellido" onChange={handleLastName} placeholder='apellido' value={apellido} /><br />
         <input type="text" name="email" onChange={handleEmail} placeholder='nombre@email.com' value={email} /><br />

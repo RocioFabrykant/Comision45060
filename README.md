@@ -4,7 +4,7 @@ Esta es una aplicación de e-commerce de ropa. Permite la navegación por un cat
 KANT
 ![](/src/img/logo.png)
 
-Link al proyecto deployado: https://kant-store.vercel.app/
+Link al deploy del proyecto: https://kant-store.vercel.app/
 ## Librerías utilizadas
 [react-router-dom](https://reactrouter.com/en/main): generación de las rutas de navegación por las diferentes secciones, componentes.
 

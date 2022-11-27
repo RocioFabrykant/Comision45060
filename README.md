@@ -14,7 +14,7 @@ Link al proyecto deployado
 ### `Funcionalidades del proyecto`
 - Navegación por un menú de categorías de productos
 
-- Acceso al detalle de los productos. Selección de cantidad. Funcionalidad "Agregar al carrito"
+- Acceso al detalle de los productos. Selección de cantidad de acuerdo al stock. Funcionalidad "Agregar al carrito"
 
 - Visualización del carrito de compras con los productos seleccionados y el precio total. Posibilidad de vaciar carrito o eliminar un producto.
 

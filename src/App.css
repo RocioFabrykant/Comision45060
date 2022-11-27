@@ -33,6 +33,13 @@ ul{
   padding:20px;
 
 }
+.carrito{
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+padding-top:10px;
+padding-right:10px;
+}
 
 .imagenItem{
   width:200px;
